@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Shop</title>
+
+
+    <!-----stylesheets links ----->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-----font awesome- version 5.15.1----->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!----- end stylesheets links ----->
+
+</head>
+<body>
+ <section class="main-container">
+     
+       <header>
+        <a href="#"><img src="images/logo3.png" class="logo float-right"></a>
+        <ul>
+            <li><a href="#" class="active"> HOME</a></li>
+            <li><a href="shop.html"> PRODUCTS</a></li>
+            <li><a href="contact us.html"> CONTACT</a></li>
+        
+        </ul>
+        <div class="clearfix"></div>
+       </header>
+     
+     <div class="content">
+         <div class="">
+         <div class="row">
+             <div class="col-lg-6">
+                <div class="textBox">
+                    <h2>That's What <span> I Like</span></h2>
+                    <p class="lead"> home is the place of comfort that's why it's important to choose every piece of your furniture carefully.
+                    we promise you with comfortable and elegant pieces with good prices.</p>
+                    <a href="shop.html">View All Products</a>
+                </div>
+             </div>
+             <div class="col-lg-6">
+                <div class="imgBox">
+                    <img src="images/sofa-1.png" class="sofa img-responsive" />
+
+
+                </div> 
+         </div>
+     </div>
+     </div>
+     
+     <ul class="thumb list-unstyled">
+        <li><img src="images/sofa-1.png" onclick="imgSlider('images/sofa-1.png');changeBgColor('#211f1f')"/></li>
+        <li><img src="images/sofa-6.png" onclick="imgSlider('images/sofa-6.png');changeBgColor('#142940')"/></li>
+        <li><img src="images/sofa-2.png" onclick="imgSlider('images/sofa-2.png');changeBgColor('#293e2d')"/></li>
+        <li><img src="images/sofa-4.png" onclick="imgSlider('images/sofa-4.png');changeBgColor('#3e0a03')"/></li>
+        <li><img src="images/sofa-7.png" onclick="imgSlider('images/sofa-7.png');changeBgColor('#654f31')"/></li>
+     </ul>
+     </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+</html>
